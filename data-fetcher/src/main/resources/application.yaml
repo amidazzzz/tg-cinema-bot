@@ -1,1 +1,18 @@
-spring.application.name=Data Fetcher
+spring:
+  application:
+    name: "Data Fetcher"
+
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: data-fetcher-group
+      auto-offset-reset: earliest
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+
+API:
+  URL: "http://www.omdbapi.com/"
+  KEY: "24c5464b"
