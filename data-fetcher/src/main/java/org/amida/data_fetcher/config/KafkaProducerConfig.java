@@ -1,4 +1,4 @@
-package org.amida.data_fetcher.kafka;
+package org.amida.data_fetcher.config;
 
 import org.amida.data_fetcher.model.Movie;
 import org.apache.kafka.clients.producer.ProducerConfig;
