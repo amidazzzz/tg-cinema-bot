@@ -10,7 +10,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class CinemaService {
 
     @Value("${API.KEY}")
-    private final String apiKey;
+    private String apiKey;
 
     private final WebClient webClient;
 
