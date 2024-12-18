@@ -1,1 +1,4 @@
-spring.application.name=tg-bot
+telegram:
+  bot:
+    name: "CinemaInformationBot"
+    token: "7531849463:AAEI_7fx4Z3HdvphOhlHSBIh7GPD5iyg1Is"
