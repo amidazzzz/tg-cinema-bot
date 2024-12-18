@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tg-cinema-bot.iml" filepath="$PROJECT_DIR$/tg-cinema-bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tg-cinema-bot.iml" filepath="$PROJECT_DIR$/.idea/tg-cinema-bot.iml" />
     </modules>
   </component>
 </project>

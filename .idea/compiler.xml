@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-fetcher" />
+        <module name="tg-bot" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="data-fetcher" options="-parameters" />
+      <module name="tg-bot" options="-parameters" />
     </option>
   </component>
 </project>
